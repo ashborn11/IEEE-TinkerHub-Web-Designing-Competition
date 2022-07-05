@@ -1,0 +1,54 @@
+body {
+    background-color: #f9f9f9;
+
+  }
+header{
+    display: flex;
+    position: sticky; 
+    top: 0px;
+}
+
+ul.navigate {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.navigate {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  
+div.top {
+    color: white;
+    background-color: #616161;
+    text-align: center;
+  }
+  
+  div.about {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: justify;
+    padding: 70px;
+  }
+
+  div.events {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: justify;
+    padding: 70px;
+    border-style: solid;
+    background-image: url("images/bgMusic.avif");
+  }
